@@ -19,4 +19,4 @@ predictor = TabularPredictor(label=label).fit(train_data)
 preds = predictor.predict(test_data)
 
 # 4. Evaluate (if ground truth is available)
-predictor.evaluate(test_data)
+# predictor.evaluate(test_data)
